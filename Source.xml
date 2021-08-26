@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE ARSENAL[
+<!ELEMENT ARSENAL (Weapon+)>
+<!ELEMENT Weapon  (WeaponId, Name, ProductionYear,Caliber,MagazineCapacity)>
+<!ELEMENT WeaponId (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT ProductionYear (#PCDATA)>
+<!ELEMENT Caliber (#PCDATA)>
+<!ELEMENT MagazineCapacity (#PCDATA)>
+]>
+<ARSENAL>
+  <Weapon>
+    <WeaponId>1</WeaponId>
+    <Name>Colt</Name>
+    <ProductionYear>1911</ProductionYear>
+    <Caliber>11.43*23</Caliber>
+    <MagazineCapacity>7</MagazineCapacity>
+  </Weapon>
+  <Weapon>
+    <WeaponId>2</WeaponId>
+    <Name>BerettaM9</Name>
+    <ProductionYear>1975</ProductionYear>
+    <Caliber>9*19</Caliber>
+    <MagazineCapacity>15</MagazineCapacity>
+  </Weapon>
+  <Weapon>
+    <WeaponId>3</WeaponId>
+    <Name>Grach</Name>
+    <ProductionYear>1998</ProductionYear>
+    <Caliber>9*19</Caliber>
+    <MagazineCapacity>18</MagazineCapacity>
+  </Weapon>
+  <Weapon>
+    <WeaponId>4</WeaponId>
+    <Name>Desert Eagle</Name>
+    <ProductionYear>0</ProductionYear>
+    <Caliber>50</Caliber>
+    <MagazineCapacity>7</MagazineCapacity>
+  </Weapon>
+  <Weapon>
+    <WeaponId>4</WeaponId>
+    <Name>Makarov Pistol</Name>
+    <ProductionYear>1951</ProductionYear>
+    <Caliber>9*18</Caliber>
+    <MagazineCapacity>8</MagazineCapacity>
+  </Weapon>
+</ARSENAL>
